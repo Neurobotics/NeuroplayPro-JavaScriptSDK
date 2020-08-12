@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="data:image/png;base64,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">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<script src="jquery.3.5.1.min.js"></script>
+<script src="neuroplay.js"></script>
+<title>NeuroplayPro Javascript SDK example</title>
+<style>
+* { font-family: 'Roboto Mono', monospace; font-weight: 400; font-size: 16px; color: #333; line-height: 1.4em; }
+.maxw
+
+{
+	max-width: 900px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h1 { font-weight: 400; font-size: 40px; line-height: 45px; }
+h2 { font-weight: 400; font-size: 32px; line-height: 36px; background: #000; color: #FFF; padding: 10px; }
+h3 { font-weight: 400; font-size: 24px; line-height: 30px; margin: 0; margin-top: 0.5em; }
+
+strong { font-weight: bold; }
+
+.http { border-bottom: 2px solid #159; text-decoration: none; white-space: nowrap; }
+.ws { border-bottom: 2px solid #591; text-decoration: none; white-space: nowrap; }
+
+.httpws { 
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to left, #159, #591);
+  display: inline-block;
+}
+.cmd
+{
+	color: #951;
+	font-weight: bold;
+}
+
+code, inlinecode
+{
+	display: inline-block;
+	background: #F6F6FE;
+	border: 1px solid #CCC;
+	dpadding: 5px
+}
+
+
+
+inlinecode
+{
+	dpadding: 2px 4px;
+}
+
+code
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: auto;
+	padding: 20px;
+	min-width: 400px;
+	white-space: pre;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+table td, table th
+{
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+table th
+{
+	background: #F6F6F6;
+}
+
+http
+{
+border-bottom: 2px solid #159;
+}
+
+http
+{
+border-bottom: 2px solid #159;
+}
+
+.action 
+{
+	background: url(flash-circle.svg) no-repeat center center;
+	background-size: contain;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	display: inline-block;
+	
+}
+.action:hover
+{
+	opacity: 0.8;
+}
+
+.example-output
+{
+	background: white;
+	padding: 10px;
+	margin-top: 10px;
+	white-space: pre-wrap;
+}
+
+cmd
+{
+display: block;
+padding: 10px;
+background: #CCC;
+margin-bottom: 1em;
+position: relative;
+}
+
+cmd-options
+{
+	/*position: absolute;
+	top: 10px;
+	right: 10px;
+	display: block;*/
+	float: right;
+}
+
+
+run
+{
+	background: #48C url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNGRkYiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBkPSJNMTAgMTYuNXYtOWw2IDQuNU0xMiAyYTEwIDEwIDAgMSAwIDAgMjAgMTAgMTAgMCAxIDAgMC0yMHoiLz48L3N2Zz4=") no-repeat left center;
+	background-size: 16px;
+	background-position-x: 3px;
+	padding: 4px;
+	border-radius: 3px;
+	padding-left: 20px;
+	display: inline-block;
+	font-size: 12px;
+	color: white;	
+	cursor: pointer;
+	margin-left: 2px;
+}
+
+example-output
+{
+	background: #991 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNGRkYiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBkPSJNOSAyMmExIDEgMCAwIDEtMS0xdi0zSDRhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJoMTZhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAyaC02LjFsLTMuNyAzLjdhMS4wMiAxLjAyIDAgMCAxLS43LjI5aDBIOU01IDV2MmgxNFY1SDVtMCA0djJoOFY5SDVtMCA0djJoMTB2LTJINXoiLz48L3N2Zz4=") no-repeat left center;
+	background-size: 16px;
+	background-position-x: 3px;
+	padding: 4px;
+	border-radius: 3px;
+	padding-left: 20px;
+	display: inline-block;
+	font-size: 12px;
+	color: white;
+	cursor: pointer;	
+}
+
+#close
+{
+	position: fixed; 
+	top: 1em; 
+	right: 1em; 
+	width: 3em; 
+	height: 3em; 
+	background-repeat: no-repeat; 
+	background-size: contain; 
+	cursor: pointer;
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNDMzAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBkPSJNMTIgMmM1LjUzIDAgMTAgNC40NyAxMCAxMHMtNC40NyAxMC0xMCAxMFMyIDE3LjUzIDIgMTIgNi40NyAyIDEyIDJtMy42IDVMMTIgMTAuNiA4LjQgNyA3IDguNGwzLjYgMy42TDcgMTUuNiA4LjQgMTdsMy42LTMuNiAzLjYgMy42IDEuNC0xLjQtMy42LTMuNkwxNyA4LjQgMTUuNiA3eiIvPjwvc3ZnPg==");
+}
+
+#refresh
+{
+	position: fixed; 
+	top: 1em; 
+	right: 4em; 
+	width: 3em; 
+	height: 3em; 
+	background-repeat: no-repeat; 
+	background-size: contain; 
+	cursor: pointer;
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM0OEMiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBkPSJNMTIgMmExMCAxMCAwIDEgMCAxMCAxMEExMCAxMCAwIDAgMCAxMiAybTYgOWgtNWwxLjgtMS44QTMuOTQgMy45NCAwIDAgMCAxMiA4YTQgNCAwIDEgMCAzLjg2IDVoMi4wNUE2IDYgMCAxIDEgMTIgNmE1LjkxIDUuOTEgMCAwIDEgNC4yMiAxLjc4TDE4IDZ6Ii8+PC9zdmc+") 
+}
+
+run:hover, example-output:hover, #close, #refresh
+{
+	opacity: 0.8;
+}
+</style>
+</head>
+<body>
+<h1>0. Creating Neuroplay connector</h1>
+<code>var neuroplay = new Neuroplay();</code>
+
+<h1>1. Search devices and start one of them</h1>
+<code>var neuroplay = new Neuroplay();
+neuroplay.on(CMD_ListDevices, function(data) { 
+	
+	if (data && data.result == true)
+	{
+		for(var i = 0; i<data.devices.length(); i++)
+		{
+			//Show device in list
+			var device = data.devices[i];
+			console.log(device.name);
+		}
+	}
+
+	
+	
+ })
+</code>
+
+<script>
+var neuroplay = new Neuroplay();
+neuroplay.connect();
+neuroplay.on(CMD_ListDevices, function(data) 
+{ 
+	
+	if (data && data.result == true)
+	{
+		for(var i = 0; i<data.devices.length(); i++)
+		{
+			//Show device in list
+			var device = data.devices[i];
+			console.log(device.name);
+		}
+	}
+
+	
+	
+ });
+</script>
+
+</body>
+</html>
